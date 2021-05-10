@@ -1,0 +1,70 @@
+* {
+    font-size: 16px;
+    font-family: "Calibri", sans-serif;
+    line-height: 16px;
+}
+
+ul {
+    list-style: none;
+    padding: 20px;
+}
+
+a {
+    text-decoration-line: none;
+    color: black;
+}
+
+.flexbox {
+    margin: 20px;
+    border: 1px solid #000000;
+    display: flex;
+}
+
+.FormFlexbox {
+    width: 300px;
+}
+
+.Data {
+    padding-left: 0;
+}
+
+.float {
+    margin: 20px;
+    border: 1px solid #000000;
+}
+
+.FormFloat {
+    width: 300px;
+    float: left;
+}
+
+.table {
+    margin: 20px;
+    border: 1px solid #000000;
+}
+
+.FormTable {
+    width: 300px;
+    padding: 0;
+}
+
+.Grid {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    margin: 20px;
+    border: 1px solid #000000;
+}
+
+.Position {
+    margin: 20px;
+    border: 1px solid #000000;
+}
+
+.FormPosition {
+    width: 300px;
+    position: absolute;
+}
+
+.DataPosition {
+    padding-left: 300px;
+}
